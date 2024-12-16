@@ -1,0 +1,14 @@
+/home/chris/RiderProjects/Blackjack/Blackjack/bin/Debug/net8.0/Blackjack
+/home/chris/RiderProjects/Blackjack/Blackjack/bin/Debug/net8.0/Blackjack.deps.json
+/home/chris/RiderProjects/Blackjack/Blackjack/bin/Debug/net8.0/Blackjack.runtimeconfig.json
+/home/chris/RiderProjects/Blackjack/Blackjack/bin/Debug/net8.0/Blackjack.dll
+/home/chris/RiderProjects/Blackjack/Blackjack/bin/Debug/net8.0/Blackjack.pdb
+/home/chris/RiderProjects/Blackjack/Blackjack/obj/Debug/net8.0/Blackjack.GeneratedMSBuildEditorConfig.editorconfig
+/home/chris/RiderProjects/Blackjack/Blackjack/obj/Debug/net8.0/Blackjack.AssemblyInfoInputs.cache
+/home/chris/RiderProjects/Blackjack/Blackjack/obj/Debug/net8.0/Blackjack.AssemblyInfo.cs
+/home/chris/RiderProjects/Blackjack/Blackjack/obj/Debug/net8.0/Blackjack.csproj.CoreCompileInputs.cache
+/home/chris/RiderProjects/Blackjack/Blackjack/obj/Debug/net8.0/Blackjack.dll
+/home/chris/RiderProjects/Blackjack/Blackjack/obj/Debug/net8.0/refint/Blackjack.dll
+/home/chris/RiderProjects/Blackjack/Blackjack/obj/Debug/net8.0/Blackjack.pdb
+/home/chris/RiderProjects/Blackjack/Blackjack/obj/Debug/net8.0/Blackjack.genruntimeconfig.cache
+/home/chris/RiderProjects/Blackjack/Blackjack/obj/Debug/net8.0/ref/Blackjack.dll
