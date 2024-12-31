@@ -12,3 +12,4 @@
 /home/chris/RiderProjects/Blackjack/Blackjack/obj/Debug/net8.0/Blackjack.pdb
 /home/chris/RiderProjects/Blackjack/Blackjack/obj/Debug/net8.0/Blackjack.genruntimeconfig.cache
 /home/chris/RiderProjects/Blackjack/Blackjack/obj/Debug/net8.0/ref/Blackjack.dll
+/home/chris/RiderProjects/blackjack/Blackjack/obj/Debug/net8.0/Blackjack.sourcelink.json

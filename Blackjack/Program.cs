@@ -1,15 +1,27 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using System;
+using System.Runtime.InteropServices.ComTypes;
 using Blackjack;
 
 Deck deck = new Deck();
 deck.ResetDeck();
-deck.PrintDeck();
-
+deck.Shuffle();
+Card card = deck.DrawCard();
 
 namespace Blackjack
 {
+
+    public class Player
+    {
+        public List<Card> Hand = new List<Card>();
+
+        public void AddCard(Card card)
+        {
+            Hand.Add(card);
+        }
+        
+    }
     
     
     public class Card {
@@ -76,6 +88,13 @@ namespace Blackjack
             }
         }
 
+        public void Shuffle()
+        {
+            Random random = new Random();
+            var shuffledCards = Cards.OrderBy(x => random.Next());
+            Cards = shuffledCards.ToList();
+        }
+        
         public void PrintDeck()
         {
             foreach (Card card in this.Cards)
@@ -83,6 +102,21 @@ namespace Blackjack
                 Console.WriteLine(card.Name);
             }
         }
+
+        public Card DrawCard()
+        {
+            if (Cards.Count > 0)
+            {
+                Card card = Cards[0];
+                Cards.RemoveAt(0);
+                return card;
+            }
+            else
+            {
+                return null;
+            }
+        }
+        
     }
    
 }
