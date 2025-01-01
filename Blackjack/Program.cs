@@ -4,6 +4,23 @@ using System;
 using System.Runtime.InteropServices.ComTypes;
 using Blackjack;
 
+class GameManager
+{
+    private Deck _deck = new Deck();
+    Player _player = new Player();
+    
+    public void NewGame()
+    {
+        _deck.ResetDeck();
+        _deck.Shuffle();
+        _player.ClearHand();
+    }
+    
+    public void Assign
+    
+    
+}
+
 Deck deck = new Deck();
 deck.ResetDeck();
 deck.Shuffle();
@@ -19,6 +36,11 @@ namespace Blackjack
         public void AddCard(Card card)
         {
             Hand.Add(card);
+        }
+
+        public void ClearHand()
+        {
+            Hand.Clear();
         }
         
     }
